@@ -5,11 +5,39 @@ body {
   overflow-x: hidden;
 }
 
+.navbar {
+  max-height: 15vh;
+}
+
 .logo {
-  height: 4rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-height: 15vh;
   width: auto;
 }
 
-h1 {
-  color: #3c763d;
+.navbar ul li a {
+  font-size: 1.10em;
+}
+
+.nav-div {
+  background-image: url("./Components/nav3.jpg");
+  height: 85vh;
+  width: auto;
+  background-position: top;
+  background-repeat: no-repeat;
+
+}
+
+.div-title {
+  margin-top: 2.5rem;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div-title h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #5cb85c;
+  font-size: 1.25em;
 }
