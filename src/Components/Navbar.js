@@ -10,17 +10,17 @@ const Navbar = () => {
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ml-auto">
-      <li className="nav-item active lg-mr-5">
-        <a className="nav-link " href="#">Inicio <span class="sr-only">(current)</span></a>
+      <li className="nav-item active ">
+        <a className="nav-link mr-4 " href="#">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#" >Enlaces de interés</a>
+        <a className="nav-link mr-4" href="#" >Enlaces de interés</a>
       </li>
      <li className="nav-item">
-        <a className="nav-link" href="#" >Nuestras promos</a>
+        <a className="nav-link mr-4" href="#" >Nuestras promos</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Sobre Nosotros</a>
+        <a className="nav-link mr-3" href="#">Sobre Nosotros</a>
       </li>
 
     </ul>
