@@ -5,20 +5,23 @@ body {
   overflow-x: hidden;
 }
 
+/*////////////////////////// Navbar /////////////////*/
 .navbar {
-  max-height: 15vh;
+  min-height: 15vh;
 }
 
 .logo {
   margin-top: 0px;
   margin-bottom: 0px;
-  max-height: 15vh;
+  height: 4rem;
   width: auto;
 }
 
 .navbar ul li a {
   font-size: 1.10em;
 }
+
+/*////////////////////////// Nav ////////////////////*/
 
 .nav-div {
   background-image: url("./Components/nav3.jpg");
@@ -30,8 +33,9 @@ body {
 }
 
 .div-title {
-  margin-top: 2.5rem;
-  max-width: 70%;
+  margin-top: 4rem;
+  max-width: 65%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -40,4 +44,83 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
   font-size: 1.25em;
+}
+
+.div-title p {
+  margin-top: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  font-size: 1em;
+}
+
+.emoji {
+  margin-top: 3.5rem;
+  max-width: 65%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.emoji p {
+  font-size: 1.5rem;
+}
+
+/*/////////////////////////// 992px ///////////////////////////////*/
+@media(max-width:992px) {
+  /*.navbar {
+    height: 2rem;
+  }*/
+}
+
+/*/////////////////////////// 570px ///////////////////////////////*/
+@media(max-width:570px) {
+
+  .div-title h1 {
+    font-size: 1em;
+  }
+
+  .div-title p {
+    font-size: 0.75em;
+  }
+
+  .div-title {
+    margin-top: 2rem;
+  }
+
+  .emoji {
+    margin-top: 2rem;
+  }
+
+  .emoji p {
+    font-size: 1rem;
+  }
+}
+
+/*////////////////////////// 412px ///////////////////////////////*/
+@media(max-width:412px) {
+
+
+  .div-title h1 {
+    font-size: 0.75em;
+  }
+
+  .div-title {
+    max-width: 80%;
+  }
+
+  .emoji {
+    max-width: 80%;
+  }
+
+  .emoji p {
+    font-size: 0.75rem;
+  }
+
+}
+
+@media(max-width:358px) {
+  .text-main {
+    display: none;
+  }
 }
