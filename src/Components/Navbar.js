@@ -24,12 +24,17 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link mr-4" href="#">
-                Enlaces de interés
+                Enlaces
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link mr-4" href="#">
-                Nuestras promos
+                Alumnos
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link mr-4" href="#">
+                Promos
               </a>
             </li>
             <li className="nav-item">

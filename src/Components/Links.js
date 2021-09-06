@@ -9,7 +9,7 @@ const Links = () => {
       <div className="links-container ">
         <h3 className="text-center mt-5 mb-4 font-weight-light">
           {" "}
-          Enlaces útiles que te pueden servir
+          Enlaces que te pueden ser útiles
         </h3>
       </div>
       <div className="cards-container d-flex justify-content-around mb-5">
