@@ -4,7 +4,7 @@ const Navbar = () => {
     <div className="container-fluid">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <button
-          className="navbar-toggler"
+          className="navbar-toggler hamburguer"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"

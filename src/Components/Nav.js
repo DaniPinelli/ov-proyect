@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <div className="container-fluid bg-success">
+    <div className="container-fluid bg-success main-container">
       <div className="row">
         <div className="col-6 nav-div"></div>
         <div className="col-6 rigth-side">
