@@ -3,9 +3,9 @@ import slider2 from "./slider2.jpg";
 import slider3 from "./slider3.jpg";
 const Slider = () => {
   return (
-    <div className="container slider-container mb-5">
+    <div className="container slider-container">
       <div className=" title-slider mt-5 mb-2">
-        <h4>Nuestos Alumnos:</h4>
+        <h4 id="students">Nuestos Alumnos:</h4>
         <p>(Perdón que no podemos ponerlos a todos)</p>
       </div>
       <div

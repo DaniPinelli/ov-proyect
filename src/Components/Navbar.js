@@ -18,27 +18,27 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active ">
-              <a className="nav-link mr-4 " href="#">
+              <a className="nav-link mr-4 " href="#main">
                 Inicio <span class="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mr-4" href="#">
+              <a className="nav-link mr-4" href="#links">
                 Enlaces
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mr-4" href="#">
+              <a className="nav-link mr-4" href="#students">
                 Alumnos
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mr-4" href="#">
+              <a className="nav-link mr-4" href="#our-prices">
                 Promos
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link mr-3" href="#">
+              <a className="nav-link mr-3" href="#us">
                 Sobre Nosotros
               </a>
             </li>

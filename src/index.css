@@ -5,6 +5,11 @@ body {
   overflow-x: hidden;
 }
 
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 
 
 /*////////////////////////// Navbar /////////////////*/
@@ -57,14 +62,14 @@ body {
 .div-title h1 {
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
-  font-size: 1.25em;
+  font-size: 2em;
 }
 
 .div-title p {
   margin-top: 2rem;
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .emoji {
@@ -76,14 +81,19 @@ body {
 }
 
 .emoji p {
-  font-size: 1.5rem;
+  font-size: 2em;
 }
 
 .carousel-item {
   height: 600px;
 }
 
-/*////////////////////////// Section ////////////////////*/
+/*////////////////////////// Links ////////////////////*/
+.container-links {
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
 .cards-container {
   flex-wrap: wrap;
 }
@@ -127,30 +137,105 @@ body {
 
 /*////////////////////////// Prices ////////////////////*/
 
-.promo-tittle-div h5 {
-  margin-top: 7rem;
+.prices {
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.promo-tittle-div1 h5 {
+  margin-top: 4rem;
   color: #fffffe;
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: bold;
   text-align: center;
 }
 
-.prices img {
-  height: 1000px;
-  width: 100%;
-  position: center;
+.promo-tittle-div2 h6 {
+  margin-top: 1rem;
+  color: #fffffe;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
 }
 
+.card-prices {
+  color: white;
+  background-color: black;
+  height: 250px;
+  max-width: 284px;
+  border: none;
+}
+
+.card-prices p {
+  font-size: 1.5em;
+}
+
+
+/*/////////////////////////// 1452px ///////////////////////////////*/
+@media(max-width:1452px) {
+  .div-title {
+    max-width: 80%;
+  }
+}
+
+/*/////////////////////////// 1192px ///////////////////////////////*/
+@media(max-width:1192px) {
+  .div-title {
+    max-width: 90%;
+  }
+
+  .emoji p {
+    margin-top: 2.5rem;
+  }
+}
+
+/*/////////////////////////// 1040px ///////////////////////////////*/
+@media(max-width:1040px) {
+  .emoji p {
+    margin-top: 3rem;
+  }
+}
+
+/*/////////////////////////// 1006px ///////////////////////////////*/
+@media(max-width:1006px) {
+  .div-title p {
+    font-size: 1.25em;
+  }
+}
 
 
 
 /*/////////////////////////// 992px ///////////////////////////////*/
 @media(max-width:992px) {
   .div-title {
-    max-width: 90%;
+    max-width: 95%;
+  }
+
+  .container-links {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
+/*//////////////////////////  810px ///////////////////////////////*/
+@media(max-width:810px) {
+  .div-title h1 {
+    font-size: 1.5em;
+  }
+}
+
+/*//////////////////////////  644px ///////////////////////////////*/
+@media(max-width:644px) {
+  .div-title p {
+    font-size: 1.1em;
+  }
+
+  .emoji p {
+    font-size: 1.5em;
+    margin-top: 4.5rem;
+  }
+}
 
 
 /*/////////////////////////// 570px ///////////////////////////////*/
@@ -180,10 +265,11 @@ body {
   }
 
   .emoji {
-    margin-top: 2rem;
+    margin-top: 0;
   }
 
   .emoji p {
+    margin-top: 0;
     font-size: 1rem;
   }
 
@@ -191,12 +277,11 @@ body {
     height: 450px;
     width: auto;
   }
-}
 
-
-
-/*////////////////////////// 570px ///////////////////////////////*/
-@media(max-width: 570px) {
+  .card img {
+    height: 3rem;
+    width: 3rem;
+  }
 
   .links-container h3 {
     font-size: 1.5em;
@@ -208,6 +293,22 @@ body {
 
   .title-slider p {
     font-size: 0.75em;
+  }
+
+  .promo-tittle-div1 h5 {
+    font-size: 2em;
+  }
+
+  .promo-tittle-div2 h6 {
+    font-size: 1em;
+  }
+
+  .card-prices p {
+    font-size: 1.25em;
+  }
+
+  .card-prices {
+    height: 180px;
   }
 
 }

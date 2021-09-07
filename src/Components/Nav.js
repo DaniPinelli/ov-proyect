@@ -2,7 +2,7 @@ const Nav = () => {
   return (
     <div className="container-fluid bg-success main-container">
       <div className="row">
-        <div className="col-6 nav-div"></div>
+        <div className="col-6 nav-div" id="main"></div>
         <div className="col-6 rigth-side">
           <div className="div-title ">
             <h1>
