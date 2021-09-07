@@ -92,6 +92,11 @@ body {
 .container-links {
   padding-left: 190px;
   padding-right: 190px;
+  height: 600px auto;
+}
+
+.links-container {
+  margin-top: 3rem;
 }
 
 .cards-container {
@@ -171,6 +176,50 @@ body {
   font-size: 1.5em;
 }
 
+/*/////////////////////////// Title hidden >570 ///////////////////////////////*/
+
+.title-hidden,
+.text-main-hidden {
+  display: none;
+}
+
+.text-main-hidden {
+  margin-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  max-width: 80%;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  position: relative;
+  z-index: 100;
+  opacity: 0.9;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.title-main-hide h1 {
+  font-size: 1.5em;
+}
+
+.title-main-hide p {
+  font-size: 1.25em;
+}
+
+.emoji-hidden {
+  margin-top: 0;
+  z-index: 100;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  font-size: 1.5em;
+  justify-content: space-around;
+}
+
+
 
 /*/////////////////////////// 1452px ///////////////////////////////*/
 @media(max-width:1452px) {
@@ -238,21 +287,28 @@ body {
 }
 
 
-/*/////////////////////////// 570px ///////////////////////////////*/
-@media(max-width:570px) {
+/*/////////////////////////// 577px ///////////////////////////////*/
+@media(max-width:577px) {
+
+  .title-hidden,
+  .text-main-hidden {
+    display: flex;
+  }
 
   .hamburguer {
     font-size: 0.75rem;
     border: none;
   }
 
-  .main-container,
-  .nav-div,
-  .rigth-side {
-    height: 600px;
+  .rigth-side,
+  .div-title,
+  .emoji {
+    display: none;
   }
 
-  .div-title h1 {
+
+
+  /*.div-title h1 {
     font-size: 1em;
   }
 
@@ -271,12 +327,12 @@ body {
   .emoji p {
     margin-top: 0;
     font-size: 1rem;
-  }
+  }*/
 
-  .prices img {
+  /*.prices img {
     height: 450px;
     width: auto;
-  }
+  }*/
 
   .card img {
     height: 3rem;
@@ -313,12 +369,46 @@ body {
 
 }
 
+/*////////////////////////// 546px ///////////////////////////////*/
+@media(max-width:546px) {
+  .text-main-hidden {
+    margin-top: 380px;
+  }
+}
+
+/*////////////////////////// 526px ///////////////////////////////*/
+@media(max-width:526px) {
+  .title-main-hide h1 {
+    font-size: 1.2em;
+  }
+
+  .title-main-hide p {
+    font-size: 0.9em;
+  }
+}
+
+
+/*////////////////////////// 450px ///////////////////////////////*/
+@media(max-width:450px) {
+  .title-hidden h1 {
+    font-size: 1.25em;
+  }
+}
+
 
 /*////////////////////////// 412px ///////////////////////////////*/
 @media(max-width:412px) {
 
+  .title-hidden h1 {
+    font-size: 1.25em;
+  }
 
-  .div-title h1 {
+  .title-hidden h1 {
+    font-size: 1.5em;
+  }
+
+
+  /*.div-title h1 {
     font-size: 0.75em;
   }
 
@@ -332,8 +422,17 @@ body {
 
   .emoji p {
     font-size: 0.75rem;
-  }
+  }*/
 
+}
+
+
+/*////////////////////////// 376px ///////////////////////////////*/
+@media(max-width:376px) {
+  .title-hidden h1 {
+    padding-top: 10px;
+    font-size: 1em;
+  }
 }
 
 

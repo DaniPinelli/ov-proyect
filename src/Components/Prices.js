@@ -1,5 +1,3 @@
-import prices from "./prices.png";
-
 const Prices = () => {
   return (
     <div className="container-fluid bg-dark">
