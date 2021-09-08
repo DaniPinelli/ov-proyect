@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ov-proyect/static/css/main.4d65c07c.chunk.css",
-    "main.js": "/ov-proyect/static/js/main.336402b7.chunk.js",
-    "main.js.map": "/ov-proyect/static/js/main.336402b7.chunk.js.map",
+    "main.css": "/ov-proyect/static/css/main.559ff4da.chunk.css",
+    "main.js": "/ov-proyect/static/js/main.01f8c7d2.chunk.js",
+    "main.js.map": "/ov-proyect/static/js/main.01f8c7d2.chunk.js.map",
     "runtime-main.js": "/ov-proyect/static/js/runtime-main.7d3213b7.js",
     "runtime-main.js.map": "/ov-proyect/static/js/runtime-main.7d3213b7.js.map",
     "static/js/2.be3816ea.chunk.js": "/ov-proyect/static/js/2.be3816ea.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bf11a13d.chunk.js": "/ov-proyect/static/js/3.bf11a13d.chunk.js",
     "static/js/3.bf11a13d.chunk.js.map": "/ov-proyect/static/js/3.bf11a13d.chunk.js.map",
     "index.html": "/ov-proyect/index.html",
-    "static/css/main.4d65c07c.chunk.css.map": "/ov-proyect/static/css/main.4d65c07c.chunk.css.map",
+    "static/css/main.559ff4da.chunk.css.map": "/ov-proyect/static/css/main.559ff4da.chunk.css.map",
     "static/js/2.be3816ea.chunk.js.LICENSE.txt": "/ov-proyect/static/js/2.be3816ea.chunk.js.LICENSE.txt",
     "static/media/logo-cars.7bbc637f.png": "/ov-proyect/static/media/logo-cars.7bbc637f.png",
     "static/media/manual.24b27165.png": "/ov-proyect/static/media/manual.24b27165.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.7d3213b7.js",
     "static/js/2.be3816ea.chunk.js",
-    "static/css/main.4d65c07c.chunk.css",
-    "static/js/main.336402b7.chunk.js"
+    "static/css/main.559ff4da.chunk.css",
+    "static/js/main.01f8c7d2.chunk.js"
   ]
 }
