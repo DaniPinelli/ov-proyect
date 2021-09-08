@@ -41,7 +41,6 @@ body {
   background-image: url("./Components/nav3.jpg");
   height: 1100px;
   width: 100%;
-  /*position: relative;*/
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,37 +93,50 @@ body {
 .container-links {
   padding-left: 190px;
   padding-right: 190px;
-  height: 600px auto;
+  height: 916px;
 }
 
+.links-container-title,
 .links-container {
-  margin-top: 3rem;
+  margin-top: 12rem;
 }
 
 .cards-container {
   flex-wrap: wrap;
 }
 
-.links-container h3 {
-  font-size: bold;
+.links-container-title h3 {
+  font-size: 3.5em;
 }
 
 .card {
+  height: 334px;
+  width: 300px;
   border-radius: 14px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card img {
+  height: 12rem;
+  width: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+.btn-links {
+  margin-top: 1.5rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12rem;
+  justify-content: center;
 }
 
 /*////////////////////////// Slider ////////////////////*/
 .slider-container {
   margin-top: 6rem;
   background-color: #fffffe;
-}
-
-.card img {
-  height: 6rem;
-  width: 6rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .title-slider h4 {
@@ -267,6 +279,14 @@ body {
   .emoji p {
     margin-top: 2.5rem;
   }
+
+  .links-container-title {
+    margin-top: 8rem;
+  }
+
+  .links-container {
+    margin-top: 4rem;
+  }
 }
 
 
@@ -296,11 +316,7 @@ body {
 }
 
 /*/////////////////////////// 1006px ///////////////////////////////*/
-@media(max-width:1006px) {
-  /*.div-title p {
-    font-size: 1.25em;
-  }*/
-}
+@media(max-width:1006px) {}
 
 
 
@@ -314,6 +330,32 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .links-container-title h3 {
+    font-size: 2.5em;
+  }
+
+  .card img {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .btn-links {
+    margin-top: 0;
+    width: 8rem;
+    font-size: 0.65em;
+  }
+
+
+  .card {
+    height: 236px;
+    width: 248px;
+  }
+
+  .container-links {
+    height: 868px;
+  }
+
 }
 
 /*/////////////////////////// 922px ///////////////////////////////*/
@@ -361,17 +403,8 @@ body {
 }
 
 
-/*//////////////////////////  644px ///////////////////////////////
-@media(max-width:644px) {
-  .div-title p {
-    font-size: 1.1em;
-  }
-
-  .emoji p {
-    font-size: 1.5em;
-    margin-top: 4.5rem;
-  }
-}*/
+/*//////////////////////////  644px ///////////////////////////////*/
+@media(max-width:644px) {}
 
 
 /*/////////////////////////// 577px ///////////////////////////////*/
@@ -399,11 +432,12 @@ body {
   }
 
   .card img {
-    height: 3rem;
-    width: 3rem;
+    height: 5rem;
+    width: 4rem;
+    padding-top: 0;
   }
 
-  .links-container h3 {
+  .links-container-title h3 {
     font-size: 1.5em;
   }
 
@@ -429,6 +463,21 @@ body {
 
   .card-prices {
     height: 180px;
+  }
+
+  .links-container-title {
+    margin-top: 6rem;
+  }
+
+  .btn-links {
+    margin-top: 0;
+    width: 7.2rem;
+    font-size: 0.65em;
+  }
+
+  .card {
+    height: 166px;
+    width: 194px;
   }
 
 }
