@@ -5,8 +5,8 @@ const Slider = () => {
   return (
     <div className="container slider-container">
       <div className=" title-slider mt-5 mb-2">
-        <h4 id="students">Nuestos Alumnos:</h4>
-        <p>(Perdón que no podemos ponerlos a todos)</p>
+        <h4 id="students">Opiniones de alumnos:</h4>
+        <p>(Divinos ellos 😊)</p>
       </div>
       <div
         id="carouselExampleControls"

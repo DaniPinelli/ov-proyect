@@ -5,9 +5,9 @@ import manual from "./manual.png";
 
 const Links = () => {
   return (
-    <div className="container-fluid container-links">
+    <div className="container-fluid container-links" id="links">
       <div className="links-container ">
-        <h3 className="text-center mb-4 font-weight-light" id="links">
+        <h3 className="text-center mb-4 font-weight-light" >
           {" "}
           Enlaces que te pueden ser útiles
         </h3>

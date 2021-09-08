@@ -34,25 +34,26 @@ body {
 /*////////////////////////// Nav ////////////////////*/
 
 .main-container {
-  height: 700px;
+  height: 1100px;
 }
 
 .nav-div {
   background-image: url("./Components/nav3.jpg");
-  height: 700px;
-  width: auto;
+  height: 1100px;
+  width: 100%;
   /*position: relative;*/
   background-position: top;
   background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 .rigth-side {
-  height: 700px;
+  height: 1100px;
 }
 
 .div-title {
-  margin-top: 4rem;
+  margin-top: 14rem;
   max-width: 65%;
   height: 500px;
   margin-left: auto;
@@ -62,14 +63,14 @@ body {
 .div-title h1 {
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .div-title p {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-family: 'Montserrat', sans-serif;
   color: whitesmoke;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .emoji {
@@ -78,10 +79,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-around;
+  margin-top: 6rem;
 }
 
 .emoji p {
-  font-size: 2em;
+  font-size: 2.8em;
 }
 
 .carousel-item {
@@ -219,18 +221,46 @@ body {
   justify-content: space-around;
 }
 
-
-
-/*/////////////////////////// 1452px ///////////////////////////////*/
-@media(max-width:1452px) {
+/*/////////////////////////// 1882px ///////////////////////////////*/
+@media(max-width:1882px) {
   .div-title {
+    margin-top: 6rem;
+  }
+
+  .main-container {
+    height: 900px;
+  }
+
+  .nav-div {
+    height: 900px;
+
+  }
+
+  .rigth-side {
+    height: 900px;
+  }
+
+  .emoji {
+    margin-top: 10rem;
+  }
+}
+
+/*/////////////////////////// 1660px ///////////////////////////////*/
+@media(max-width:1660px) {
+
+  .div-title,
+  .emoji {
     max-width: 80%;
   }
 }
 
-/*/////////////////////////// 1192px ///////////////////////////////*/
-@media(max-width:1192px) {
-  .div-title {
+
+
+/*/////////////////////////// 1360px ///////////////////////////////*/
+@media(max-width:1360px) {
+
+  .div-title,
+  .emoji {
     max-width: 90%;
   }
 
@@ -239,18 +269,37 @@ body {
   }
 }
 
+
+/*/////////////////////////// 1204px ///////////////////////////////*/
+@media(max-width:1204px) {
+
+  .div-title h1 {
+    font-size: 2em;
+  }
+
+  .div-title p {
+    font-size: 1.8em;
+  }
+
+  .emoji p {
+    margin-top: 0;
+    font-size: 2.5em;
+  }
+}
+
+
 /*/////////////////////////// 1040px ///////////////////////////////*/
 @media(max-width:1040px) {
   .emoji p {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 }
 
 /*/////////////////////////// 1006px ///////////////////////////////*/
 @media(max-width:1006px) {
-  .div-title p {
+  /*.div-title p {
     font-size: 1.25em;
-  }
+  }*/
 }
 
 
@@ -267,14 +316,52 @@ body {
   }
 }
 
-/*//////////////////////////  810px ///////////////////////////////*/
-@media(max-width:810px) {
-  .div-title h1 {
-    font-size: 1.5em;
+/*/////////////////////////// 922px ///////////////////////////////*/
+@media(max-width:922px) {
+  .div-title {
+    margin-top: 4rem;
+  }
+
+  .emoji p {
+    margin-top: 3rem;
   }
 }
 
-/*//////////////////////////  644px ///////////////////////////////*/
+/*//////////////////////////  858px ///////////////////////////////*/
+@media(max-width:858px) {
+  .div-title p {
+    font-size: 1.6em;
+  }
+}
+
+
+
+/*//////////////////////////  740px ///////////////////////////////*/
+@media(max-width:740px) {
+
+  .div-title h1 {
+    font-size: 1.8em;
+  }
+
+  .emoji p {
+    margin-top: 0;
+    font-size: 2em;
+  }
+
+  .emoji {
+    margin-top: 14rem;
+  }
+}
+
+/*//////////////////////////  668px ///////////////////////////////*/
+@media(max-width:668px) {
+  .div-title p {
+    font-size: 1.4em;
+  }
+}
+
+
+/*//////////////////////////  644px ///////////////////////////////
 @media(max-width:644px) {
   .div-title p {
     font-size: 1.1em;
@@ -284,7 +371,7 @@ body {
     font-size: 1.5em;
     margin-top: 4.5rem;
   }
-}
+}*/
 
 
 /*/////////////////////////// 577px ///////////////////////////////*/
@@ -306,33 +393,10 @@ body {
     display: none;
   }
 
-
-
-  /*.div-title h1 {
-    font-size: 1em;
+  .main-container,
+  .nav-div {
+    height: 730px;
   }
-
-  .div-title p {
-    font-size: 0.75em;
-  }
-
-  .div-title {
-    margin-top: 2rem;
-  }
-
-  .emoji {
-    margin-top: 0;
-  }
-
-  .emoji p {
-    margin-top: 0;
-    font-size: 1rem;
-  }*/
-
-  /*.prices img {
-    height: 450px;
-    width: auto;
-  }*/
 
   .card img {
     height: 3rem;
@@ -385,6 +449,12 @@ body {
   .title-main-hide p {
     font-size: 0.9em;
   }
+
+  .main-container,
+  .nav-div {
+    height: 686px;
+  }
+
 }
 
 
@@ -406,23 +476,6 @@ body {
   .title-hidden h1 {
     font-size: 1.5em;
   }
-
-
-  /*.div-title h1 {
-    font-size: 0.75em;
-  }
-
-  .div-title {
-    max-width: 98%;
-  }
-
-  .emoji {
-    max-width: 80%;
-  }
-
-  .emoji p {
-    font-size: 0.75rem;
-  }*/
 
 }
 
