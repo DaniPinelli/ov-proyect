@@ -135,14 +135,12 @@ body {
 
 /*////////////////////////// Slider ////////////////////*/
 .slider-container {
-  margin-top: 6rem;
   background-color: #fffffe;
 }
 
 .title-slider h4 {
-  font-size: 2em;
+  font-size: 3em;
   color: #5cb85c;
-  font-size: bold;
   text-shadow: 2px 1px 1px green;
   text-decoration: underline;
 }
@@ -150,6 +148,15 @@ body {
 .title-slider p {
   font-size: 1.5em;
   color: green;
+}
+
+.slider-container {
+  margin-top: 5rem;
+  height: 90rem;
+}
+
+.carousel-item {
+  height: 72rem;
 }
 
 
@@ -327,6 +334,7 @@ body {
   }
 
   .container-links {
+    height: 764px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -350,10 +358,6 @@ body {
   .card {
     height: 236px;
     width: 248px;
-  }
-
-  .container-links {
-    height: 868px;
   }
 
 }
@@ -480,6 +484,18 @@ body {
     width: 194px;
   }
 
+  .links-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .links-container-title {
+    margin-top: 2rem;
+  }
 }
 
 /*////////////////////////// 546px ///////////////////////////////*/
@@ -535,12 +551,14 @@ body {
     padding-top: 10px;
     font-size: 1em;
   }
-}
 
-
-/*////////////////////////// 358px ///////////////////////////////*/
-@media(max-width:358px) {
-  .text-main {
-    display: none;
+  .links-container-title h3 {
+    font-size: 1.2em;
   }
 }
+
+
+/*////////////////////////// 358px ///////////////////////////////
+@media(max-width:358px) {
+  
+}*/
