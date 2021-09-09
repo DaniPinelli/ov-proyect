@@ -85,9 +85,6 @@ body {
   font-size: 2.8em;
 }
 
-.carousel-item {
-  height: 600px;
-}
 
 /*////////////////////////// Links ////////////////////*/
 .container-links {
@@ -152,16 +149,29 @@ body {
 
 .slider-container {
   margin-top: 5rem;
-  height: 90rem;
+  margin-bottom: 6rem;
 }
 
-.carousel-item {
-  height: 72rem;
+/*.carousel-item {
+  height: 78vh;
+  width: 46vw;
+}*/
+
+.carousel-item img {
+  /* background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 46vw;*/
+  height: 720px;
 }
 
 
 
 /*////////////////////////// Prices ////////////////////*/
+
+.prices-container {
+  height: 900px;
+}
 
 .prices {
   margin-left: auto;
@@ -170,7 +180,7 @@ body {
 }
 
 .promo-tittle-div1 h5 {
-  margin-top: 4rem;
+  padding-top: 6rem;
   color: #fffffe;
   font-size: 2.5em;
   font-weight: bold;
@@ -178,7 +188,7 @@ body {
 }
 
 .promo-tittle-div2 h6 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: #fffffe;
   font-size: 1.5em;
   font-weight: bold;
@@ -191,11 +201,13 @@ body {
   height: 250px;
   max-width: 284px;
   border: none;
+  margin-top: 5rem;
 }
 
 .card-prices p {
   font-size: 1.5em;
 }
+
 
 /*/////////////////////////// Title hidden >570 ///////////////////////////////*/
 
@@ -360,6 +372,14 @@ body {
     width: 248px;
   }
 
+  .carousel-item img {
+    height: 616px;
+  }
+
+  .card-prices p {
+    font-size: 1.25em;
+  }
+
 }
 
 /*/////////////////////////// 922px ///////////////////////////////*/
@@ -377,6 +397,10 @@ body {
 @media(max-width:858px) {
   .div-title p {
     font-size: 1.6em;
+  }
+
+  .prices-container {
+    height: 978px;
   }
 }
 
@@ -396,6 +420,26 @@ body {
 
   .emoji {
     margin-top: 14rem;
+  }
+
+  .card-prices p {
+    font-size: 1em;
+  }
+
+  .promo-tittle-div1 h5 {
+    padding-top: 2rem;
+  }
+
+  .promo-tittle-div2 h6 {
+    margin-top: 1rem;
+  }
+
+  .prices {
+    margin-top: 0;
+  }
+
+  .card-prices {
+    height: 180px;
   }
 }
 
@@ -461,14 +505,6 @@ body {
     font-size: 1em;
   }
 
-  .card-prices p {
-    font-size: 1.25em;
-  }
-
-  .card-prices {
-    height: 180px;
-  }
-
   .links-container-title {
     margin-top: 6rem;
   }
@@ -495,6 +531,16 @@ body {
 
   .links-container-title {
     margin-top: 2rem;
+  }
+
+  .carousel-item img {
+    height: 514px;
+  }
+
+
+
+  .prices-container {
+    height: 810px;
   }
 }
 
@@ -528,6 +574,10 @@ body {
   .title-hidden h1 {
     font-size: 1.25em;
   }
+
+  .carousel-item img {
+    height: 370px;
+  }
 }
 
 
@@ -544,6 +594,27 @@ body {
 
 }
 
+/*////////////////////////// 386px ///////////////////////////////*/
+@media(max-width:386px) {
+  .promo-tittle-div1 h5 {
+    padding-top: 1rem;
+    font-size: 1.5em;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-prices {
+    height: 112px;
+    width: 183px;
+  }
+
+  .card-prices p {
+    font-size: 0.75em;
+  }
+}
+
 
 /*////////////////////////// 376px ///////////////////////////////*/
 @media(max-width:376px) {
@@ -556,9 +627,3 @@ body {
     font-size: 1.2em;
   }
 }
-
-
-/*////////////////////////// 358px ///////////////////////////////
-@media(max-width:358px) {
-  
-}*/

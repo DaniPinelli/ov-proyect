@@ -1,6 +1,6 @@
 const Prices = () => {
   return (
-    <div className="container-fluid bg-dark">
+    <div className="container-fluid prices-container bg-dark">
       <div className="promo-tittle-div1">
         <h5 id="our-prices">Nuestras Promos</h5>
       </div>
