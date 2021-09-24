@@ -596,6 +596,12 @@ body {
 
 /*////////////////////////// 386px ///////////////////////////////*/
 @media(max-width:386px) {
+
+  .prices {
+    flex-direction: column;
+    align-content: center;
+  }
+
   .promo-tittle-div1 h5 {
     padding-top: 1rem;
     font-size: 1.5em;
